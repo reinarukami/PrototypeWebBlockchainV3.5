@@ -1,0 +1,252 @@
+2017-11-22 15:11:34 ERROR  : Error connecting to the server: could not translate host name "192.168.58.110:5433" to address: Unknown server error
+
+2017-11-22 16:20:21 ERROR  : server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+2017-11-22 16:31:51 ERROR  : Column not found in pgSet: rolcatupdate
+2017-11-22 16:31:52 ERROR  : Column not found in pgSet: rolcatupdate
+2017-11-22 16:31:53 ERROR  : Column not found in pgSet: rolcatupdate
+2017-11-22 17:46:36 ERROR  : ERROR:  syntax error at or near "NO"
+LINE 6: intime timestamp with time zone NO,
+                                        ^
+2017-11-22 17:48:14 ERROR  : ERROR:  syntax error at or near ")"
+LINE 9: )
+        ^
+2017-11-22 17:48:25 ERROR  : ERROR:  syntax error at or near "CONSTRAINT"
+LINE 11: CONSTRAINT csp_violation_log_t_pkey PRIMARY KEY (id) WITH (O...
+         ^
+2017-11-22 17:48:34 ERROR  : ERROR:  syntax error at or near "{"
+LINE 1: Create Table csp_violation_log_t{
+                                        ^
+2017-11-22 17:50:18 ERROR  : ERROR:  syntax error at or near "CONSTRAINT"
+LINE 10: CONSTRAINT csp_violation_log_t_pkey PRIMARY KEY (id)
+         ^
+2017-11-22 17:50:43 ERROR  : ERROR:  syntax error at or near "CONSTRAINT"
+LINE 10: CONSTRAINT csp_violation_log_t_pkey PRIMARY KEY (id)
+         ^
+2017-11-22 17:50:47 ERROR  : ERROR:  syntax error at or near ","
+LINE 9: active smallint NOT NULL DEFAULT,
+                                        ^
+2017-11-22 17:50:52 ERROR  : ERROR:  syntax error at or near "CONSTRAINT"
+LINE 10: CONSTRAINT csp_violation_log_t_pkey PRIMARY KEY (id)
+         ^
+2017-11-22 17:51:07 ERROR  : ERROR:  syntax error at or near "CONSTRAINT"
+LINE 10: CONSTRAINT csp_violation_log_t_pkey PRIMARY KEY (id)
+         ^
+2017-11-22 17:51:19 ERROR  : ERROR:  syntax error at or near ")"
+LINE 10: )
+         ^
+2017-11-22 17:51:37 ERROR  : ERROR:  syntax error at or near ")"
+LINE 10: );
+         ^
+2017-11-22 17:51:40 ERROR  : ERROR:  syntax error at or near ")"
+LINE 10: )
+         ^
+2017-11-22 17:52:00 ERROR  : ERROR:  syntax error at or near ")"
+LINE 10: )
+         ^
+2017-11-22 17:52:01 ERROR  : ERROR:  syntax error at or near ")"
+LINE 10: )
+         ^
+2017-11-22 17:52:17 ERROR  : ERROR:  syntax error at or near ")"
+LINE 10: )
+         ^
+2017-11-22 17:52:25 ERROR  : ERROR:  syntax error at or near ")"
+LINE 10: )
+         ^
+2017-11-22 17:52:26 ERROR  : ERROR:  syntax error at or near ")"
+LINE 10: )
+         ^
+2017-11-22 17:52:26 ERROR  : ERROR:  syntax error at or near ")"
+LINE 10: )
+         ^
+2017-11-22 17:53:44 ERROR  : ERROR:  syntax error at or near ")"
+LINE 10: )
+         ^
+2017-11-22 17:53:50 ERROR  : ERROR:  syntax error at or near ")"
+LINE 10: )
+         ^
+2017-11-22 17:54:05 ERROR  : ERROR:  syntax error at or near ")"
+LINE 10: )
+         ^
+2017-11-22 17:54:08 ERROR  : ERROR:  syntax error at or near ")"
+LINE 10: );
+         ^
+2017-11-22 17:54:22 ERROR  : ERROR:  syntax error at or near ")"
+LINE 6: );
+        ^
+2017-11-22 17:54:28 ERROR  : ERROR:  syntax error at or near ")"
+LINE 6: )
+        ^
+2017-11-22 17:54:29 ERROR  : ERROR:  syntax error at or near ")"
+LINE 6: )
+        ^
+2017-11-22 17:54:29 ERROR  : ERROR:  syntax error at or near ")"
+LINE 6: )
+        ^
+2017-11-22 17:58:45 ERROR  : ERROR:  syntax error at or near ","
+LINE 9: active smallint NOT NULL DEFAULT,
+                                        ^
+2017-11-22 17:58:53 ERROR  : ERROR:  syntax error at or near ")"
+LINE 10: );
+         ^
+2017-11-22 17:59:11 ERROR  : ERROR:  syntax error at or near ")"
+LINE 10: );
+         ^
+2017-11-22 17:59:15 ERROR  : ERROR:  syntax error at or near ")"
+LINE 10: )
+         ^
+2017-11-22 17:59:28 ERROR  : ERROR:  syntax error at or near ")"
+LINE 10: )
+         ^
+2017-11-22 17:59:35 ERROR  : ERROR:  syntax error at or near ")"
+LINE 10: )
+         ^
+2017-11-22 17:59:53 ERROR  : ERROR:  syntax error at or near ")"
+LINE 10: )
+         ^
+2017-11-22 18:09:40 ERROR  : ERROR:  relation "csp_violation_log_t" already exists
+2017-11-23 16:55:45 ERROR  : ERROR:  cannot drop sequence csp_violation_log_t_id_seq because other objects depend on it
+DETAIL:  default for table csp_violation_log_t column id depends on sequence csp_violation_log_t_id_seq
+HINT:  Use DROP ... CASCADE to drop the dependent objects too.
+2017-11-23 16:58:58 ERROR  : ERROR:  invalid input syntax for type timestamp with time zone: "12:00"
+LINE 1: ...3'::integer, '1'::integer, '1'::text, 'as'::text, '12:00'::t...
+                                                             ^
+2017-11-23 17:08:39 ERROR  : ERROR:  relation "csp_violation_log_t_id_seq" already exists
+2017-11-23 17:29:51 ERROR  : ERROR:  relation "csp_violation_log_t_id_seq" already exists
+2017-11-23 17:36:30 ERROR  : ERROR:  table "csp_violation_log_t" does not exist
+2017-11-23 17:39:32 ERROR  : fe_sendauth: no password supplied
+
+2017-11-23 17:39:38 ERROR  : fe_sendauth: no password supplied
+
+2017-11-23 18:16:54 ERROR  : ERROR:  relation "csp_violation_log_t_id_seq" already exists
+2017-11-23 18:57:16 ERROR  : ERROR:  syntax error at or near "postgres"
+LINE 1: postgres=# CREATE DATABASE pgroonga_test;
+        ^
+2018-01-18 19:10:13 ERROR  : Error connecting to the server: FATAL:  password authentication failed for user "postgres"
+password retrieved from file "C:\Users\rsumalde\AppData\Roaming/postgresql/pgpass.conf"
+
+2018-01-18 19:10:41 ERROR  : ERROR:  function pg_last_xlog_receive_location() does not exist
+LINE 1: ...E NULL END as inrecovery, CASE WHEN usesuper THEN pg_last_xl...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+2018-01-18 19:10:43 ERROR  : Column not found in pgSet: usecreatedb
+2018-01-18 19:10:44 ERROR  : Column not found in pgSet: usesuper
+2018-01-18 19:10:45 ERROR  : Column not found in pgSet: upsince
+2018-01-18 19:10:45 ERROR  : Column not found in pgSet: confloadedsince
+2018-01-18 19:10:46 ERROR  : Column not found in pgSet: inrecovery
+2018-01-18 19:10:46 ERROR  : Column not found in pgSet: replayloc
+2018-01-18 19:10:46 ERROR  : Column not found in pgSet: receiveloc
+2018-01-18 19:10:46 ERROR  : Column not found in pgSet: replay_timestamp
+2018-01-18 19:10:46 ERROR  : Column not found in pgSet: isreplaypaused
+2018-01-18 19:10:47 ERROR  : Column not found in pgSet: rolcatupdate
+2018-01-18 19:10:47 ERROR  : Column not found in pgSet: rolcatupdate
+2018-01-18 19:10:48 ERROR  : Column not found in pgSet: rolcatupdate
+2018-01-18 19:10:48 ERROR  : Column not found in pgSet: rolcatupdate
+2018-01-18 19:10:48 ERROR  : Column not found in pgSet: rolcatupdate
+2018-01-18 19:10:48 ERROR  : Column not found in pgSet: rolcatupdate
+2018-02-21 16:43:08 ERROR  : ERROR:  function pg_last_xlog_receive_location() does not exist
+LINE 1: ...E NULL END as inrecovery, CASE WHEN usesuper THEN pg_last_xl...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+2018-02-21 16:43:09 ERROR  : Column not found in pgSet: usecreatedb
+2018-02-21 16:43:11 ERROR  : Column not found in pgSet: usesuper
+2018-02-21 16:43:11 ERROR  : Column not found in pgSet: upsince
+2018-02-21 16:43:11 ERROR  : Column not found in pgSet: confloadedsince
+2018-02-21 16:43:12 ERROR  : Column not found in pgSet: inrecovery
+2018-02-21 16:43:12 ERROR  : Column not found in pgSet: replayloc
+2018-02-21 16:43:12 ERROR  : Column not found in pgSet: receiveloc
+2018-02-21 16:43:12 ERROR  : Column not found in pgSet: replay_timestamp
+2018-02-21 16:43:13 ERROR  : Column not found in pgSet: isreplaypaused
+2018-02-21 16:43:13 ERROR  : Column not found in pgSet: rolcatupdate
+2018-02-21 16:43:14 ERROR  : Column not found in pgSet: rolcatupdate
+2018-02-21 16:43:15 ERROR  : Column not found in pgSet: rolcatupdate
+2018-02-21 16:43:15 ERROR  : Column not found in pgSet: rolcatupdate
+2018-02-21 16:43:15 ERROR  : Column not found in pgSet: rolcatupdate
+2018-02-21 16:43:15 ERROR  : Column not found in pgSet: rolcatupdate
+2018-02-21 16:43:15 ERROR  : Column not found in pgSet: rolcatupdate
+2018-02-21 16:43:16 ERROR  : Column not found in pgSet: rolcatupdate
+2018-03-02 12:45:50 ERROR  : ERROR:  function pg_last_xlog_receive_location() does not exist
+LINE 1: ...E NULL END as inrecovery, CASE WHEN usesuper THEN pg_last_xl...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+2018-03-02 12:45:51 ERROR  : Column not found in pgSet: usecreatedb
+2018-03-02 12:45:54 ERROR  : Column not found in pgSet: usesuper
+2018-03-02 12:45:55 ERROR  : Column not found in pgSet: upsince
+2018-03-02 12:45:55 ERROR  : Column not found in pgSet: confloadedsince
+2018-03-02 12:45:55 ERROR  : Column not found in pgSet: inrecovery
+2018-03-02 12:45:55 ERROR  : Column not found in pgSet: replayloc
+2018-03-02 12:45:56 ERROR  : Column not found in pgSet: receiveloc
+2018-03-02 12:45:56 ERROR  : Column not found in pgSet: replay_timestamp
+2018-03-02 12:45:56 ERROR  : Column not found in pgSet: isreplaypaused
+2018-03-02 12:45:57 ERROR  : Column not found in pgSet: rolcatupdate
+2018-03-02 12:45:59 ERROR  : Column not found in pgSet: rolcatupdate
+2018-03-02 12:45:59 ERROR  : Column not found in pgSet: rolcatupdate
+2018-03-02 12:46:00 ERROR  : Column not found in pgSet: rolcatupdate
+2018-03-02 12:46:00 ERROR  : Column not found in pgSet: rolcatupdate
+2018-03-02 12:46:00 ERROR  : Column not found in pgSet: rolcatupdate
+2018-03-02 12:46:00 ERROR  : Column not found in pgSet: rolcatupdate
+2018-03-02 12:46:00 ERROR  : Column not found in pgSet: rolcatupdate
+2018-03-14 15:57:14 ERROR  : ERROR:  function pg_last_xlog_receive_location() does not exist
+LINE 1: ...E NULL END as inrecovery, CASE WHEN usesuper THEN pg_last_xl...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+2018-03-14 15:57:15 ERROR  : Column not found in pgSet: usecreatedb
+2018-03-14 15:57:16 ERROR  : Column not found in pgSet: usesuper
+2018-03-14 15:57:16 ERROR  : Column not found in pgSet: upsince
+2018-03-14 15:57:16 ERROR  : Column not found in pgSet: confloadedsince
+2018-03-14 15:57:16 ERROR  : Column not found in pgSet: inrecovery
+2018-03-14 15:57:16 ERROR  : Column not found in pgSet: replayloc
+2018-03-14 15:57:16 ERROR  : Column not found in pgSet: receiveloc
+2018-03-14 15:57:17 ERROR  : Column not found in pgSet: replay_timestamp
+2018-03-14 15:57:17 ERROR  : Column not found in pgSet: isreplaypaused
+2018-03-14 15:57:18 ERROR  : Column not found in pgSet: rolcatupdate
+2018-03-14 15:57:19 ERROR  : Column not found in pgSet: rolcatupdate
+2018-03-14 15:57:19 ERROR  : Column not found in pgSet: rolcatupdate
+2018-03-14 15:57:19 ERROR  : Column not found in pgSet: rolcatupdate
+2018-03-14 15:57:19 ERROR  : Column not found in pgSet: rolcatupdate
+2018-03-14 15:57:19 ERROR  : Column not found in pgSet: rolcatupdate
+2018-03-14 15:57:19 ERROR  : Column not found in pgSet: rolcatupdate
+2018-03-14 15:57:20 ERROR  : Column not found in pgSet: rolcatupdate
+2018-03-15 11:15:42 ERROR  : ERROR:  function pg_last_xlog_receive_location() does not exist
+LINE 1: ...E NULL END as inrecovery, CASE WHEN usesuper THEN pg_last_xl...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+2018-03-15 11:16:00 ERROR  : Column not found in pgSet: usecreatedb
+2018-03-15 11:16:01 ERROR  : Column not found in pgSet: usesuper
+2018-03-15 11:16:02 ERROR  : Column not found in pgSet: upsince
+2018-03-15 11:16:02 ERROR  : Column not found in pgSet: confloadedsince
+2018-03-15 11:16:02 ERROR  : Column not found in pgSet: inrecovery
+2018-03-15 11:16:02 ERROR  : Column not found in pgSet: replayloc
+2018-03-15 11:16:03 ERROR  : Column not found in pgSet: receiveloc
+2018-03-15 11:16:03 ERROR  : Column not found in pgSet: replay_timestamp
+2018-03-15 11:16:03 ERROR  : Column not found in pgSet: isreplaypaused
+2018-03-15 11:16:04 ERROR  : Column not found in pgSet: rolcatupdate
+2018-03-15 11:16:05 ERROR  : Column not found in pgSet: rolcatupdate
+2018-03-15 11:16:05 ERROR  : Column not found in pgSet: rolcatupdate
+2018-03-15 11:16:05 ERROR  : Column not found in pgSet: rolcatupdate
+2018-03-15 11:16:05 ERROR  : Column not found in pgSet: rolcatupdate
+2018-03-15 11:16:05 ERROR  : Column not found in pgSet: rolcatupdate
+2018-03-15 11:16:05 ERROR  : Column not found in pgSet: rolcatupdate
+2018-03-15 11:16:06 ERROR  : Column not found in pgSet: rolcatupdate
+2018-03-15 11:42:42 ERROR  : ERROR:  function pg_last_xlog_receive_location() does not exist
+LINE 1: ...E NULL END as inrecovery, CASE WHEN usesuper THEN pg_last_xl...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+2018-03-15 11:42:43 ERROR  : Column not found in pgSet: usecreatedb
+2018-03-15 11:42:45 ERROR  : Column not found in pgSet: usesuper
+2018-03-15 11:42:45 ERROR  : Column not found in pgSet: upsince
+2018-03-15 11:42:45 ERROR  : Column not found in pgSet: confloadedsince
+2018-03-15 11:42:45 ERROR  : Column not found in pgSet: inrecovery
+2018-03-15 11:42:45 ERROR  : Column not found in pgSet: replayloc
+2018-03-15 11:42:45 ERROR  : Column not found in pgSet: receiveloc
+2018-03-15 11:42:46 ERROR  : Column not found in pgSet: replay_timestamp
+2018-03-15 11:42:46 ERROR  : Column not found in pgSet: isreplaypaused
+2018-03-15 11:42:46 ERROR  : Column not found in pgSet: rolcatupdate
+2018-03-15 11:42:46 ERROR  : Column not found in pgSet: rolcatupdate
+2018-03-15 11:42:46 ERROR  : Column not found in pgSet: rolcatupdate
+2018-03-15 11:42:46 ERROR  : Column not found in pgSet: rolcatupdate
+2018-03-15 11:42:46 ERROR  : Column not found in pgSet: rolcatupdate
+2018-03-15 11:42:47 ERROR  : Column not found in pgSet: rolcatupdate
+2018-03-15 11:42:47 ERROR  : Column not found in pgSet: rolcatupdate
+2018-03-15 11:42:47 ERROR  : Column not found in pgSet: rolcatupdate
