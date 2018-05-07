@@ -34,7 +34,7 @@ namespace PrototypeWebBlockchain.Repository
             using (IDbConnection dbConnection = Connection)
             {
                 dbConnection.Open();
-                dbConnection.Execute("INSERT INTO member_t (email, password, fname,lname,age,contact,address) VALUES(@email, @password, @fname,@lname,@age,@contact,@address)", item);
+                dbConnection.Execute("INSERT INTO member_t (email, w_address, password, w_password, fname,lname,age,contact,address) VALUES(@email, @w_address, @password, @password, @fname,@lname,@age,@contact,@address)", item);
             }
         }
 

@@ -13,8 +13,10 @@ namespace PrototypeWebBlockchain.Models
         public int? id { get; set; }
         [Required]
         public string email { get; set; }
+        public string w_address { get; set; }
         [Required]
         public string password { get; set; }
+        public string w_password { get; set; }
         [Required]
         public string fname { get; set; }
         [Required]

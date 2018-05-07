@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace PrototypeWebBlockchain.Models
 {
-    public class Image
+    public class FileClass
     {
         [Key]
         public int id { get; set; }

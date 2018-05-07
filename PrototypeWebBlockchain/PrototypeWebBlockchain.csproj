@@ -225,14 +225,16 @@
     <Compile Include="Controllers\MemberController.cs" />
     <Compile Include="Controllers\TransactionController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="Functions\Member\Member.cs" />
+    <Compile Include="Functions\Default\DefaultWeb3.cs" />
+    <Compile Include="Functions\Member\MemberFunction.cs" />
     <Compile Include="Functions\Transaction\FileUpload.cs" />
     <Compile Include="Functions\Member\AuthorizeUser.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\BaseEntity.cs" />
-    <Compile Include="Models\Image.cs" />
+    <Compile Include="Models\FileClass.cs" />
+    <Compile Include="Models\FileDTO.cs" />
     <Compile Include="Models\ImageJson.cs" />
     <Compile Include="Models\Login.cs" />
     <Compile Include="Models\Identifier.cs" />
@@ -259,7 +261,7 @@
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
     <Content Include="Repository\UploadImagePost.cshtml" />
-    <Content Include="Views\Transaction\UploadImage.cshtml" />
+    <Content Include="Views\Transaction\UploadFile.cshtml" />
     <Content Include="Views\Transaction\Transactionlist.cshtml" />
     <Content Include="Views\Member\Edit.cshtml" />
     <Content Include="Views\Member\Create.cshtml" />

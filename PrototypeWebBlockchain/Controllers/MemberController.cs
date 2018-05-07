@@ -9,6 +9,7 @@ namespace PrototypeWebBlockchain.Controllers
     {
         private readonly MemberRepository memberRepository;
         private readonly MemberFunction memberFunction;
+ 
 
         public MemberController()
         {
@@ -33,7 +34,8 @@ namespace PrototypeWebBlockchain.Controllers
         {
             if (ModelState.IsValid)
             {
-                memberRepository.Add(member);
+                var result = memberFunction.CreateAccount(member);
+                memberRepository.Add(result); 
                 return RedirectToAction("Login");
             }
             return View(member);
@@ -87,12 +89,13 @@ namespace PrototypeWebBlockchain.Controllers
                 var member = memberRepository.Login(login.email, login.password);
                 if(member != null)
                 {
-                    var test = memberFunction.CovertToSha(member.lname + member.fname);
-                    Session["Hash"] = test;
-                    Session["ID"] = member.id;
 
+                    Session["Address"] = member.w_address;
+                    Session["Password"] = member.w_password;
+                    Session["ID"] = member.id;
                     return RedirectToRoute(new { Controller = "Transaction", Action = "Transactionlist" });
                 }
+
 
                 ModelState.AddModelError("LoginError", "Username and Password do not match , Please try Again");
             }

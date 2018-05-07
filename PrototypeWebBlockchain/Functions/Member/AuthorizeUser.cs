@@ -7,7 +7,7 @@ namespace PrototypeWebBlockchain.Functions.Filters
     {
         public override void OnActionExecuting(System.Web.Mvc.ActionExecutingContext filterContext)
         {
-            if (HttpContext.Current.Session["Hash"] == null)
+            if (HttpContext.Current.Session["Address"] == null)
             {
                 filterContext.Result = new System.Web.Mvc.RedirectToRouteResult(new System.Web.Routing.RouteValueDictionary
                 {

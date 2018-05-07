@@ -14,13 +14,13 @@ namespace PrototypeWebBlockchain.Models
         [Required]
         public int? member_id { get; set; }
         [Required]
-        public string transaction_hash { get; set; }
-        [Required]
         public string filename { get; set; }
         [Required]
         public string filepath { get; set; }
         [Required]
         public string date { get; set; }
+        [Required]
+        public string address { get; }
 
     }
 }

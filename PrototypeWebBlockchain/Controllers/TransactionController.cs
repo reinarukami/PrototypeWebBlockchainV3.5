@@ -30,27 +30,26 @@ namespace PrototypeWebBlockchain.Controllers
 
         // GET: Home
 
-        public ActionResult UploadImage()
+        public ActionResult UploadFile()
         {
-
             return View();
         }
 
         [HttpPost]
-        public ActionResult UploadImage(Image image)
+        public ActionResult UploadFile(FileClass _file)
         {
             if (HttpContext.Request.Files[0].ContentLength == 0)
             {
-                ModelState.AddModelError("image", "Image is null , Please set Image");
+                ModelState.AddModelError("file", "File is null , Please set Image");
                 return View();
             }
 
-            image.image = HttpContext.Request.Files[0];
+            _file.image = HttpContext.Request.Files[0];
 
 
-            if (image.image != null)
+            if (_file.image != null)
             {
-                fileupload.UploadFile(image, transactionRepository, Session["ID"].ToString());
+                fileupload.UploadFile(_file, transactionRepository, Session["ID"].ToString());
             }
 
             return null;
@@ -59,32 +58,8 @@ namespace PrototypeWebBlockchain.Controllers
 
         public ActionResult Transactionlist()
         {
-          
 
             return View();
-        }
-
-        public JsonResult GetTransactions()
-        {
-            var _transactionlist = transactionRepository.FindByID(Int32.Parse(Session["ID"].ToString()));
-            var _list = new List<TransactionIdentifier>();
-            int i = 0;
-            foreach (var item in _transactionlist)
-            {
-                _list.Add(new TransactionIdentifier()
-                {
-                    thash = item.transaction_hash
-                });
-            }
-            
-            return new JsonResult() { Data = new { TransactionList = _list } }; ;
-
-        }
-
-        [HttpPost]
-        public ActionResult AddTransactionToTable(string data)
-        {
-            return null;
         }
 
         [HttpPost]

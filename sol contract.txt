@@ -1,24 +1,17 @@
-pragma solidity ^0.4.18;
+pragma solidity ^0.4.21;
 
 contract FileTransaction {
     
-   uint id;
-   string fileHash;
-   string date;
- 
    event FileUploadEvent(
        uint id,
+       address sender,
        string fileHash,
        string date
    );
    
-   function AddFiles(uint _id, string _fileHash, string _date) public 
+   function AddFiles(uint _id, address _sender, string _fileHash, string _date) public 
    {
- 
-       id = _id;
-       fileHash = _fileHash;
-       date = _date;
-       FileUploadEvent(_id,  _fileHash,  _date);       
+       emit FileUploadEvent(_id, _sender, _fileHash,  _date);       
    }
    
   
