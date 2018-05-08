@@ -239,7 +239,7 @@
     <Compile Include="Models\Login.cs" />
     <Compile Include="Models\Identifier.cs" />
     <Compile Include="Models\Member.cs" />
-    <Compile Include="Models\Transaction.cs" />
+    <Compile Include="Models\TransactionData.cs" />
     <Compile Include="Models\TransactionJson.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repository\ITransactionRepository.cs" />

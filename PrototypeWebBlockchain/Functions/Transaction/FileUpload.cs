@@ -79,6 +79,7 @@ namespace PrototypeWebBlockchain.Repository
             {
                 id = imageId,
                 member_id = Int32.Parse(_memberID.ToString()),
+                thash = TaskAddFile.Result,
                 filename = imageName,
                 filepath = imagepath,
                 date = DateTime.Now.ToString()
@@ -87,6 +88,17 @@ namespace PrototypeWebBlockchain.Repository
 
             _transactionRepository.Add(transaction);
         }
+
+        public void GetValidatedFiles(TransactionRepository _transactionRepository, string _memberID)
+        {
+            var list = _transactionRepository.FindByID(Int32.Parse(_memberID));
+            foreach(var item in list)
+            {
+                
+            }
+
+        }
+
 
     }
 }

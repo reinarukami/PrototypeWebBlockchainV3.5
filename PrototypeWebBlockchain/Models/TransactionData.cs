@@ -14,6 +14,8 @@ namespace PrototypeWebBlockchain.Models
         [Required]
         public int? member_id { get; set; }
         [Required]
+        public string thash { get; set; }
+        [Required]
         public string filename { get; set; }
         [Required]
         public string filepath { get; set; }

@@ -27,7 +27,7 @@ namespace PrototypeWebBlockchain.Controllers
             transactionRepository = new TransactionRepository();
             fileupload = new FileUpload();
         }
-
+            
         // GET: Home
 
         public ActionResult UploadFile()
@@ -61,6 +61,7 @@ namespace PrototypeWebBlockchain.Controllers
 
             return View();
         }
+
 
         [HttpPost]
         public JsonResult ValidateImages(string data)
